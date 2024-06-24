@@ -685,14 +685,6 @@ video {
   background-position: top;
 }
 
-.bg-center{
-  background-position: center;
-}
-
-.bg-bottom{
-  background-position: bottom;
-}
-
 .p-2{
   padding: 0.5rem;
 }
