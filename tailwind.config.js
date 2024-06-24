@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         'sans': ['ui-sans-serif', 'system-ui' ],
         'serif': ['baskervville', 'Georgia' ],
-        'mono': ['ui-monospace', 'SFMono-Regular'],
+        'mono': ['Bad Script', 'SFMono-Regular'],
         'display': ['Oswald'],
         'body': ['"Open Sans"'],
       },
