@@ -566,12 +566,16 @@ video {
   position: relative;
 }
 
+.bottom-10{
+  bottom: 2.5rem;
+}
+
 .left-1\/2{
   left: 50%;
 }
 
-.right-10{
-  right: 2.5rem;
+.left-11{
+  left: 2.75rem;
 }
 
 .top-\[24\.5rem\]{
@@ -582,28 +586,12 @@ video {
   top: 8rem;
 }
 
-.left-10{
-  left: 2.5rem;
-}
-
-.bottom-10{
-  bottom: 2.5rem;
-}
-
-.left-11{
-  left: 2.75rem;
-}
-
-.bottom-9{
-  bottom: 2.25rem;
-}
-
 .m-auto{
   margin: auto;
 }
 
-.mt-20{
-  margin-top: 5rem;
+.mt-24{
+  margin-top: 6rem;
 }
 
 .mt-4{
@@ -632,6 +620,10 @@ video {
 
 .h-\[4rem\]{
   height: 4rem;
+}
+
+.h-\[50rem\]{
+  height: 50rem;
 }
 
 .h-\[6rem\]{
@@ -867,81 +859,73 @@ video {
   color: rgb(249 168 212 / var(--tw-text-opacity));
 }
 
+@media (min-width: 320px){
+  .min-\[320px\]\:pt-\[18rem\]{
+    padding-top: 18rem;
+  }
+}
+
+@media (min-width: 389px){
+  .min-\[389px\]\:mt-\[5rem\]{
+    margin-top: 5rem;
+  }
+
+  .min-\[389px\]\:mt-\[10rem\]{
+    margin-top: 10rem;
+  }
+
+  .min-\[389px\]\:mt-\[rem\]{
+    margin-top: rem;
+  }
+
+  .min-\[389px\]\:mt-\[7rem\]{
+    margin-top: 7rem;
+  }
+
+  .min-\[389px\]\:mt-\[8rem\]{
+    margin-top: 8rem;
+  }
+
+  .min-\[389px\]\:pt-\[initial\]{
+    padding-top: initial;
+  }
+
+  .min-\[389px\]\:pt-\[\]{
+    padding-top: ;
+  }
+
+  .min-\[389px\]\:pt-\[10\]{
+    padding-top: 10;
+  }
+
+  .min-\[389px\]\:pt-\[10rme\]{
+    padding-top: 10rme;
+  }
+
+  .min-\[389px\]\:pt-\[10rem\]{
+    padding-top: 10rem;
+  }
+
+  .min-\[389px\]\:pt-\[1rem\]{
+    padding-top: 1rem;
+  }
+
+  .min-\[389px\]\:pt-\[5rem\]{
+    padding-top: 5rem;
+  }
+}
+
 @media (min-width: 1024px){
-  .lg\:top-\[6\.5rem\]{
-    top: 6.5rem;
-  }
-
-  .lg\:left-10{
-    left: 2.5rem;
-  }
-
-  .lg\:right-7{
-    right: 1.75rem;
-  }
-
-  .lg\:bottom-10{
-    bottom: 2.5rem;
-  }
-
-  .lg\:top-0{
-    top: 0px;
-  }
-
-  .lg\:top-1{
-    top: 0.25rem;
-  }
-
-  .lg\:top-2{
-    top: 0.5rem;
-  }
-
-  .lg\:top-4{
-    top: 1rem;
-  }
-
-  .lg\:top-5{
-    top: 1.25rem;
+  .lg\:left-\[5rem\]{
+    left: 5rem;
   }
 
   .lg\:top-6{
     top: 1.5rem;
   }
 
-  .lg\:right-0{
-    right: 0px;
-  }
-
-  .lg\:left-5{
-    left: 1.25rem;
-  }
-
-  .lg\:right-10{
-    right: 2.5rem;
-  }
-
-  .lg\:right-11{
-    right: 2.75rem;
-  }
-
-  .lg\:left-11{
-    left: 2.75rem;
-  }
-
-  .lg\:left-\[\]{
-    left: ;
-  }
-
-  .lg\:left-\[4rem\]{
-    left: 4rem;
-  }
-
-  .lg\:left-\[7rem\]{
-    left: 7rem;
-  }
-
-  .lg\:left-\[5rem\]{
-    left: 5rem;
+  .lg\:top-\[6\.5rem\]{
+    top: 6.5rem;
   }
 
   .lg\:m-2{
