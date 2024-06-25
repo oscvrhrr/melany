@@ -15,7 +15,7 @@ function updateCountdown() {
     document.getElementById("days").innerText = days;
     document.getElementById("hours").innerText = hours;
     document.getElementById("minutes").innerText = minutes;
-    // document.getElementById("seconds").innerText = seconds;
+    document.getElementById("seconds").innerText = seconds;
 
     // If the countdown is over, display some text
     if (distance < 0) {

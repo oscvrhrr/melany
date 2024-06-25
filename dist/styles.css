@@ -570,12 +570,32 @@ video {
   left: 50%;
 }
 
+.right-10{
+  right: 2.5rem;
+}
+
 .top-\[24\.5rem\]{
   top: 24.5rem;
 }
 
 .top-\[8rem\]{
   top: 8rem;
+}
+
+.left-10{
+  left: 2.5rem;
+}
+
+.bottom-10{
+  bottom: 2.5rem;
+}
+
+.left-11{
+  left: 2.75rem;
+}
+
+.bottom-9{
+  bottom: 2.25rem;
 }
 
 .m-auto{
@@ -808,6 +828,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -845,6 +870,78 @@ video {
 @media (min-width: 1024px){
   .lg\:top-\[6\.5rem\]{
     top: 6.5rem;
+  }
+
+  .lg\:left-10{
+    left: 2.5rem;
+  }
+
+  .lg\:right-7{
+    right: 1.75rem;
+  }
+
+  .lg\:bottom-10{
+    bottom: 2.5rem;
+  }
+
+  .lg\:top-0{
+    top: 0px;
+  }
+
+  .lg\:top-1{
+    top: 0.25rem;
+  }
+
+  .lg\:top-2{
+    top: 0.5rem;
+  }
+
+  .lg\:top-4{
+    top: 1rem;
+  }
+
+  .lg\:top-5{
+    top: 1.25rem;
+  }
+
+  .lg\:top-6{
+    top: 1.5rem;
+  }
+
+  .lg\:right-0{
+    right: 0px;
+  }
+
+  .lg\:left-5{
+    left: 1.25rem;
+  }
+
+  .lg\:right-10{
+    right: 2.5rem;
+  }
+
+  .lg\:right-11{
+    right: 2.75rem;
+  }
+
+  .lg\:left-11{
+    left: 2.75rem;
+  }
+
+  .lg\:left-\[\]{
+    left: ;
+  }
+
+  .lg\:left-\[4rem\]{
+    left: 4rem;
+  }
+
+  .lg\:left-\[7rem\]{
+    left: 7rem;
+  }
+
+  .lg\:left-\[5rem\]{
+    left: 5rem;
   }
 
   .lg\:m-2{
@@ -947,5 +1044,10 @@ video {
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
