@@ -11,7 +11,8 @@ module.exports = {
         'body': ['"Open Sans"'],
       },
       backgroundImage: {
-        'background-hero': "url('./assets/background-img.jpg')"
+        'background-hero': "url('./assets/background-img.jpg')",
+        'edited-hero': "url('./assets/edited.jpeg')"
       }
     },
   },
